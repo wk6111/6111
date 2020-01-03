@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## 欢迎来到GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/wk6111/6111/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+您可以使用 [editor on GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
