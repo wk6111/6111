@@ -9,12 +9,10 @@
 
 <div class="code-example" markdown="1">
 
-[Link button](http://example.com/){: .btn }
+[Link button](https://www.zcool.com.cn/){: .btn }
 
 </div>
-```markdown
-[Link button](http://example.com/){: .btn }
-```
+
 
 # 降价促销
 
