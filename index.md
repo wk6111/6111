@@ -32,14 +32,8 @@
 
 每当您提交到该存储库时，GitHub Pages就会运行 [Jekyll](https://jekyllrb.com/) 从Markdown文件中的内容重建站点中的页面。
 
-降价促销 [link to Google!](https://google.com)
-
-
 [:heart:](https://www.zcool.com.cn/)
 [:heart:](https://www.zcool.com.cn/)
-
-
-
 
 # 降价促销
 
