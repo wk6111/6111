@@ -5,7 +5,16 @@
 
 每当您提交到该存储库时，GitHub Pages就会运行 [Jekyll](https://jekyllrb.com/) 从Markdown文件中的内容重建站点中的页面。
 
-降价促销[link to Google!](http://google.com)
+降价促销 [link to Google!](https://google.com)
+
+<div class="code-example" markdown="1">
+
+[Link button](http://example.com/){: .btn }
+
+</div>
+```markdown
+[Link button](http://example.com/){: .btn }
+```
 
 # 降价促销
 
