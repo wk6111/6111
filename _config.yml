@@ -1,4 +1,10 @@
 theme: jekyll-theme-cayman
 title: 欢迎来到 6111 的主页
-description: 随时为此添加书签，以随时关注我的项目更新[link to Google!](http://google.com)
-[link to Google!](http://google.com)
+description: 随时为此添加书签，以随时关注我的项目更新
+<div class="code-example" markdown="1">
+
+[Link button](http://example.com/){: .btn }
+
+</div>
+```markdown
+[Link button](http://example.com/){: .btn }
