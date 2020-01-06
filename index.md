@@ -1,5 +1,14 @@
 [笔记目录](笔记目录.markdown) | [项目介绍](2111index.md) | [联系方式](2111index.md) |
 
+## 如果要嵌入图像，请按以下步骤操作：
+
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+
 
 ## 表格制作
 
@@ -25,16 +34,13 @@
 
 ### 如果要嵌入图像，请按以下步骤操作：
 
-![logo-01](/img/LOGOZUHE/LOGO-01.png)
-![logo-02](/img/LOGOZUHE/LOGO-02.png)
-
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
+![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
 ![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
 ![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
 
-![LOGO-01](/img/LOGOZUHE/LOGO-01.png)
-
-![LOGO-01](/img/LOGOZUHE/LOGO-01.png) | ![LOGO-01](/img/LOGOZUHE/LOGO-01.png) | ![LOGO-01](/img/LOGOZUHE/LOGO-01.png)
------------- | ------------- | ------------- |
 
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
