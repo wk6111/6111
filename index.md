@@ -25,7 +25,10 @@
 
 ### 如果要嵌入图像，请按以下步骤操作：
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](/img/LOGOZUHE/LOGO-01.png)
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
