@@ -31,7 +31,10 @@
 ![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
 ![logo-05](/img/LOGOZUHE/LOGO-05.png)![logo-06](/img/LOGOZUHE/LOGO-06.png)![logo-07](/img/LOGOZUHE/LOGO-07.png)
 
+![LOGO-01](/img/LOGOZUHE/LOGO-01.png)
 
+![LOGO-01](/img/LOGOZUHE/LOGO-01.png) | ![LOGO-01](/img/LOGOZUHE/LOGO-01.png) | ![LOGO-01](/img/LOGOZUHE/LOGO-01.png)
+------------ | ------------- | ------------- |
 
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
