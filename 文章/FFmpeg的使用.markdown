@@ -5,8 +5,7 @@
 ## 1.什么是ffmpeg
 引用wiki百科的解析.
 
-> FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影、转换、流功能1，包含了libavcodec ─这是一个用于多个项目中音频和视频的解码器库，以及libavformat——一个音频与视频格式转换库。
-> -
+> FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影、转换、流功能1，包含了libavcodec ─这是一个用于多个项目中音频和视频的解码器库，以及libavformat——一个音频与视频格式转换库。 
 
 `FFmpeg`的官网地址是:https://www.ffmpeg.org/
 `FFmpeg`的Github项目地址是:https://github.com/FFmpeg/FFmpeg
@@ -39,13 +38,12 @@ FFmpeg可以在Windows、Linux还有Mac OS等多种操作系统中进行安装�
 
 ## 3.怎么使用
 
-## 3.1 命令行工具的使用
-## 3.11 `ffmpeg.exe`
+### 3.1 命令行工具的使用
+### 3.11 `ffmpeg.exe`
 
 用于转码的应用程序:
 
-> 一个简单的转码命令 将input.avi转码成output.ts，并设置视频的码率为640kbps
-> -
+> 一个简单的转码命令 将input.avi转码成output.ts，并设置视频的码率为640kbps 
 
 ```
 ffmpeg -i input.avi -b:v 640k output.ts
@@ -54,7 +52,7 @@ ffmpeg -i input.avi -b:v 640k output.ts
 具体用法参考: ffmpeg参数中文详细解释
 详细的使用说明（英文）：http://ffmpeg.org/ffmpeg.html
 
-## 3.12 `ffplay.exe`
+### 3.12 `ffplay.exe`
 主要用于播放的应用程序
 
 > 播放test.avi
@@ -67,23 +65,19 @@ ffplay test.avi
 具体的使用方法可以参考：ffplay的快捷键以及选项
 详细的使用说明（英文）：http://ffmpeg.org/ffplay.html
 
-## 3.13 `ffprobe.exe`
+### 3.13 `ffprobe.exe`
 ffprobe是用于查看文件格式的应用程序。
 详细的使用说明（英文）：http://ffmpeg.org/ffprobe.html
 
-## 3.2 使用`ffmpeg`库进行开发
+### 3.2 使用`ffmpeg`库进行开发
 To Be Continue...
+
 ## 参考资料 :
 
-- FFMPEG视音频编解码零基础学习方法
-- FFmpeg使用小记
-- 如何在Windows上安装FFmpeg程序
-- ffmpeg教程 (一) 基本安装
-
 <ul>
-<li><a href="https://link.jianshu.com?t=http://blog.csdn.net/leixiaohua1020/article/details/15811977" target="_blank" rel="nofollow">FFMPEG视音频编解码零基础学习方法</a></li>
-<li><a href="https://link.jianshu.com?t=http://yuanhuan.blog.51cto.com/3367116/1246370" target="_blank" rel="nofollow">FFmpeg使用小记</a></li>
-<li><a href="https://link.jianshu.com?t=http://ffmpeg.org/documentation.html" target="_blank" rel="nofollow">FFmpeg官方文档</a></li>
-<li><a href="https://link.jianshu.com?t=http://zh.wikihow.com/%E5%9C%A8Windows%E4%B8%8A%E5%AE%89%E8%A3%85FFmpeg%E7%A8%8B%E5%BA%8F" target="_blank" rel="nofollow">如何在Windows上安装FFmpeg程序</a></li>
-<li><a href="https://link.jianshu.com?t=http://alleni123.iteye.com/blog/2028433" target="_blank" rel="nofollow">ffmpeg教程 (一) 基本安装</a></li>
+<li><a href="http://blog.csdn.net/leixiaohua1020/article/details/15811977" target="_blank" rel="nofollow">FFMPEG视音频编解码零基础学习方法</a></li>
+<li><a href="http://yuanhuan.blog.51cto.com/3367116/1246370" target="_blank" rel="nofollow">FFmpeg使用小记</a></li>
+<li><a href="http://ffmpeg.org/documentation.html" target="_blank" rel="nofollow">FFmpeg官方文档</a></li>
+<li><a href="http://zh.wikihow.com/%E5%9C%A8Windows%E4%B8%8A%E5%AE%89%E8%A3%85FFmpeg%E7%A8%8B%E5%BA%8F" target="_blank" rel="nofollow">如何在Windows上安装FFmpeg程序</a></li>
+<li><a href="http://alleni123.iteye.com/blog/2028433" target="_blank" rel="nofollow">ffmpeg教程 (一) 基本安装</a></li>
 </ul>
