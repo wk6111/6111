@@ -44,10 +44,10 @@ Syntax highlighted code block
 
 有关更多详细信息，请参见 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-## 吉柯主题
+## 自定主题
 
 Pages网站将使用您在 [repository settings](https://github.com/wk6111/6111/settings). 该主题的名称保存在Jekyll中 `_config.yml` 配置文件。
 
 ## 支持或联系
 
-Pages有问题吗？看看我们的 [documentation](https://help.github.com/categories/github-pages-basics/) 或 [contact support](https://github.com/contact) 我们将帮助您解决问题。
+有问题吗？
