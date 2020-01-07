@@ -1,0 +1,72 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>3D旋转</title>
+    <style type="text/css">
+        *{padding: 0;
+        margin: 0;}
+        body,html{height:100%;}
+        body{background-image: url("images/背景图.jpg");background-size: 100% 100%;}
+        #box{width: 280px;
+            height: 400px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom: 0;
+            margin: auto;
+            transform-style: preserve-3d;
+            transform: rotateX(0deg) rotateY(0deg);
+            animation: go 45s linear infinite;
+           }
+        #box img{width: 280px;
+                 height: 400px;
+                 position: absolute;
+                 left: 0;
+                 top: 0;
+        }
+        #box img:nth-child(1){
+            transform: rotateY(0deg) translateZ(650px);}
+        #box img:nth-child(2){
+            transform: rotateY(36deg) translateZ(650px);}
+        #box img:nth-child(3){
+            transform: rotateY(72deg) translateZ(650px);}
+        #box img:nth-child(4){
+            transform: rotateY(108deg) translateZ(650px);}
+        #box img:nth-child(5){
+            transform: rotateY(144deg) translateZ(650px);}
+        #box img:nth-child(6){
+            transform: rotateY(180deg) translateZ(650px);}
+        #box img:nth-child(7){
+            transform: rotateY(216deg) translateZ(650px);}
+        #box img:nth-child(8){
+            transform: rotateY(252deg) translateZ(650px);}
+        #box img:nth-child(9){
+            transform: rotateY(288deg) translateZ(650px);}
+        #box img:nth-child(10){
+            transform: rotateY(324deg) translateZ(650px);}
+		@keyframes go {
+		    0%{transform: rotateX(0deg) rotateY(0deg);}
+		    25%{transform: rotateX(20deg) rotateY(180deg);}
+		    50%{transform: rotateX(0deg) rotateY(360deg);}
+		    75%{transform: rotateX(-20deg) rotateY(540deg);}
+		    100%{transform: rotateX(0deg) rotateY(720deg);}
+		
+		}
+    </style>
+</head>
+	<body>
+		<div id="box">
+		    <img src="https://img.zcool.cn/community/0178ed5c274197a8012029ac14be81.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/016e855c274076a8012029ac031ee8.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/0158bd5c274076a8012029ac9395ea.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/01c8bf5c74b904a801213f2601317a.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/010d105c74b5c2a801213f269b20b9.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/01aa495dfb43cfa80120a895ed1054.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/01eb4d5dfb43d0a80120a895ac22f2.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/01638b5dfb43cfa80120a895a6c7d9.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/0172ed5dfb43cfa8012165185555d4.jpg@420w_1l_2o_100sh.jpg">
+		    <img src="https://img.zcool.cn/community/01558e5dfb43cfa8012165188a6738.jpg@420w_1l_2o_100sh.jpg">
+		</div>
+	</body>
+</html>

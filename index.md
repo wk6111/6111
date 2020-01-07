@@ -1,5 +1,9 @@
-[笔记目录](笔记目录.markdown) | [项目介绍](2111index.md) | [联系方式](2111index.md) |
+## [笔记目录](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
 
+
+## 潜入代码
+
+<p><iframe src="https://www.ddd.online/jq/webEdit/project/embedProject/sCfqmkqJ-e4WhX5NN-ZqsliX1O-OuDJiEBr" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 ## 表格制作
 
@@ -8,34 +12,14 @@
 单元格1中的内容 | 单元格2中的内容 | 单元格2中的内容 | 单元格2中的内容 |
 第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
 第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
-第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
-
-
-##### 代码
-```
-# 表格制作
-
-第一个标题 | 第二个标题 | 第二个标题 | 第二个标题 |
------------- | ------------- | ------------- | ------------- |
-单元格1中的内容 | 单元格2中的内容 | 单元格2中的内容 | 单元格2中的内容 |
-第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
-第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
-第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
-```
-
-### 如果要嵌入图像，请按以下步骤操作：
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
 
 每当您提交到该存储库时，GitHub Pages就会运行 [Jekyll](https://jekyllrb.com/) 从Markdown文件中的内容重建站点中的页面。
 
-[:heart:](https://www.zcool.com.cn/)
-[:heart:](https://www.zcool.com.cn/)
 
-## 降价促销
+## 开发样式
 
 Markdown是一种轻巧且易于使用的语法，可用于样式化您的文字。它包括以下约定
 
@@ -58,12 +42,12 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-有关更多详细信息，请参见 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+有关更多详细信息，请参见 [开发文档](https://guides.github.com/features/mastering-markdown/).
 
-## 吉柯主题
+## 自定主题
 
 Pages网站将使用您在 [repository settings](https://github.com/wk6111/6111/settings). 该主题的名称保存在Jekyll中 `_config.yml` 配置文件。
 
-## 支持或联系
+## 联系
 
-Pages有问题吗？看看我们的 [documentation](https://help.github.com/categories/github-pages-basics/) 或 [contact support](https://github.com/contact) 我们将帮助您解决问题。
+有问题吗？
