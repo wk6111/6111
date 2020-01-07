@@ -8,9 +8,10 @@
 > FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影、转换、流功能1，包含了libavcodec ─这是一个用于多个项目中音频和视频的解码器库，以及libavformat——一个音频与视频格式转换库。 
 
 `FFmpeg`的官网地址是:https://www.ffmpeg.org/
+
 `FFmpeg`的Github项目地址是:https://github.com/FFmpeg/FFmpeg
 
-## 1.1 组件
+### 1.1 组件
 `FFmpeg`项目由以下几部分组成：
 
 - `FFmpeg`视频文件转换命令行工具,也支持经过实时电视卡抓取和编码成视频文件；
@@ -19,7 +20,7 @@
 - `libavcodec`一个包含了所有`FFmpeg`音视频编解码器的库。为了保证最优性能和高可复用性，大多数编解码器从头开发的；
 - `libavformat`一个包含了所有的普通音视格式的解析器和产生器的库。
 
-## 1.2 谁在使用ffmpeg
+### 1.2 谁在使用ffmpeg
 使用`FFMPEG`作为内核视频播放器：`Mplayer`，`ffplay`，`射手播放器`，`暴风影音`，`KMPlayer`，`QQ影音`...
 使用FFMPEG作为内核的Directshow Filter：`ffdshow`，`lav filters`...
 使用FFMPEG作为内核的转码工具：`ffmpeg`，`格式工厂`...
