@@ -14,7 +14,7 @@
 每当您提交到该存储库时，GitHub Pages就会运行 [Jekyll](https://jekyllrb.com/) 从Markdown文件中的内容重建站点中的页面。
 
 
-## 降价促销
+## 开发样式
 
 Markdown是一种轻巧且易于使用的语法，可用于样式化您的文字。它包括以下约定
 
