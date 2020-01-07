@@ -1,4 +1,4 @@
-## [**笔记目录**](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
+## [笔记目录](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
 
 ## 表格制作
 
@@ -9,14 +9,9 @@
 第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
 
 
-### 如果要嵌入图像，请按以下步骤操作：
-
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
 
 每当您提交到该存储库时，GitHub Pages就会运行 [Jekyll](https://jekyllrb.com/) 从Markdown文件中的内容重建站点中的页面。
-
-[:heart:](https://www.zcool.com.cn/)
-[:heart:](https://www.zcool.com.cn/)
 
 ## 降价促销
 
@@ -41,7 +36,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-有关更多详细信息，请参见 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+有关更多详细信息，请参见 [开发文档](https://guides.github.com/features/mastering-markdown/).
 
 ## 自定主题
 
