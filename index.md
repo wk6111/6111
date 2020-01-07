@@ -1,4 +1,4 @@
-[笔记目录](笔记目录.markdown) || [项目介绍](2111index.md) || [联系方式](2111index.md)
+[*笔记目录*](笔记目录.markdown)  |  [*项目介绍*](2111index.md)  |  [*联系方式*](2111index.md)
 
 ## 表格制作
 
@@ -10,7 +10,6 @@
 
 
 ### 如果要嵌入图像，请按以下步骤操作：
-```![名称](链接地址)
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
 
