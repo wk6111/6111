@@ -10,9 +10,7 @@
 
 
 ### 如果要嵌入图像，请按以下步骤操作：
-
-![logo-05](/img/LOGOZUHE/LOGO-05.png) | ![logo-06](/img/LOGOZUHE/LOGO-06.png) |
------------- | ------------- |
+```![名称](链接地址)
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
 
