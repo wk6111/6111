@@ -1,5 +1,10 @@
 ## [笔记目录](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
 
+
+## 潜入代码
+
+<p><iframe src="https://www.ddd.online/jq/webEdit/project/embedProject/sCfqmkqJ-e4WhX5NN-ZqsliX1O-OuDJiEBr" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
 ## 表格制作
 
 第一个标题 | 第二个标题 | 第二个标题 | 第二个标题 |
@@ -8,10 +13,6 @@
 第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
 第一栏中的内容 | 第二栏中的内容 | 第二栏中的内容 | 第二栏中的内容 |
 
-I think you should use an
-`<p><iframe src="https://www.ddd.online/jq/webEdit/project/embedProject/sCfqmkqJ-e4WhX5NN-ZqsliX1O-OuDJiEBr" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>` element here instead.
-
-<p><iframe src="https://www.ddd.online/jq/webEdit/project/embedProject/sCfqmkqJ-e4WhX5NN-ZqsliX1O-OuDJiEBr" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 
 您可以使用 [editor 上的 GitHub](https://github.com/wk6111/6111/edit/master/index.md) 来维护和预览Markdown文件中网站的内容。
 
