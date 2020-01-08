@@ -20,4 +20,4 @@
 
 
 ------
-[开发文档](https://guides.github.com/features/mastering-markdown/)  ｜   [笔记目录](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
+[开发文档](https://guides.github.com/features/mastering-markdown/)  ｜   [笔记目录](笔记目录.markdown)  ｜  [项目介绍](contents/logo001.markdown)  ｜ [联系方式](2111index.md)
