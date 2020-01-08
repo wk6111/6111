@@ -12,7 +12,7 @@
 
 -- [2020010501](文章/2020010501.markdown)
 -- [2020010502](文章/2020010502.markdown)
--- [2020010503](文章/logo整理.markdown)
+-- [logo整理](文章/logo整理.markdown)
 -- [2020010701](文章/20200107.markdown)
 -- [FFmpeg的使用](文章/FFmpeg的使用.markdown)
 
