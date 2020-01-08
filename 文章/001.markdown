@@ -1,1 +1,2 @@
-[001](/image/001.png)
+
+![Image of Yaktocat](/image/001.jpg)
