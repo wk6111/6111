@@ -1,15 +1,14 @@
-[笔记目录](笔记目录.markdown)  | [项目介绍](2111index.md)  | [联系方式](2111index.md)  |
 
 ## 案例展示
 
-### * [3D旋转相册](文章/3D旋转.markdown)
-### * [平衡车-动动三维](文章/平衡车-动动三维.markdown)
-### * [产品海报（11p）](文章/产品海报[11p].markdown)
-### * [金融logo（20P）](文章/金融logo[20P].markdown)
-### * [植保无人机画册（24P）](文章/植保无人机画册[24P].markdown)
+* [3D旋转相册](文章/3D旋转.markdown)
+* [平衡车-动动三维](文章/平衡车-动动三维.markdown)
+* [产品海报（11p）](文章/产品海报[11p].markdown)
+* [金融logo（20P）](文章/金融logo[20P].markdown)
+* [植保无人机画册（24P）](文章/植保无人机画册[24P].markdown)
 
 
-## [工作笔记]
+## 工作笔记
 
 * [2020010501](文章/2020010501.markdown)
 * [2020010502](文章/2020010502.markdown)
@@ -18,11 +17,10 @@
 * [FFmpeg的使用](文章/FFmpeg的使用.markdown)
 
 
+#
+
+#
 
 
-
-
-
-## 导航
-
-有关更多详细信息，请参见 [开发文档](https://guides.github.com/features/mastering-markdown/).  [笔记目录](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
+------
+[开发文档](https://guides.github.com/features/mastering-markdown/)  ｜   [笔记目录](笔记目录.markdown)  ｜  [项目介绍](2111index.md)  ｜ [联系方式](2111index.md)
