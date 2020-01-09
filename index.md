@@ -9,9 +9,9 @@
 
 ## FFmpeg的使用
 
-- [**FFmpeg的使用**](文章/FFmpeg的使用.markdown)
-- [**FFmpeg**参数命令](文章/FFmpeg参数命令.markdown)
-- [FFmpeg功能命令汇总](文章/FFmpeg功能命令汇总.markdown)
+- [**FFmpeg--的使用**](文章/FFmpeg的使用.markdown)
+- [**FFmpeg--参数命令**](文章/FFmpeg参数命令.markdown)
+- [**FFmpeg--功能命令汇总**](文章/FFmpeg功能命令汇总.markdown)
 
 
 ## 工作笔记
