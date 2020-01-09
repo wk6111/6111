@@ -7,6 +7,11 @@
 -- [金融logo（20P）](文章/金融logo[20P].markdown)
 -- [植保无人机画册（24P）](文章/植保无人机画册[24P].markdown)
 
+## FFmpeg的使用
+
+- [FFmpeg的使用](文章/FFmpeg的使用.markdown)
+- [FFmpeg参数命令](FFmpeg参数命令.markdown)
+
 
 ## 工作笔记
 
