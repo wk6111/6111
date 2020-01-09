@@ -7,14 +7,19 @@
 
 ## a 通用选项
 
-- -L license
--h 帮助
--fromats 显示可用的格式，编解码的，协议的...
--f fmt 强迫采用格式fmt
+- L license
+- -h 帮助
+- -fromats 显示可用的格式，编解码的，协议的...
+- -f fmt 强迫采用格式fmt
+
 -I filename 输入文件
+
 -y 覆盖输出文件
+
 -t duration 设置纪录时间 hh:mm:ss[.xxx]格式的记录时间也支持
+
 -ss position 搜索到指定的时间 [-]hh:mm:ss[.xxx]的格式也支持
+
 -title string 设置标题
 -author string 设置作者
 -copyright string 设置版权
