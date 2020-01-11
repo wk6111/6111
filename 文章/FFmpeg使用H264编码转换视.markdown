@@ -8,10 +8,13 @@ mencoder 是一个很方便的视频编码程序，它几乎支持所有的视�
 首选你需要安装 mencoder 程序（下面分别是 Archlinux, Fedora, Ubuntu下的安装方式）：
 
 ```
+{% highlight ruby %}
 $ sudo pacman -S memcoder
 $ sudo yum install mencoder
 $ sudo apt-get install mencoder
+{% endhighlight %}
 ```
+
 然后就可以查看你当前系统支持哪些视频和音频编码器，以及支持哪些封装格式了：
 ```
 $ mencoder -ovc help
