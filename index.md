@@ -36,4 +36,4 @@
 
 
 ------
-[开发文档](https://guides.github.com/features/mastering-markdown/)  ｜  [笔记目录](笔记目录.markdown) ｜ [瀑布流展示](瀑布流.md) ｜ [联系方式](2111index.md)
+[github](https://github.com/wk6111) ｜ [开发文档](https://guides.github.com/features/mastering-markdown/)  ｜  [笔记目录](笔记目录.markdown) ｜ [瀑布流展示](瀑布流.md)
