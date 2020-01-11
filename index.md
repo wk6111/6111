@@ -17,7 +17,7 @@
 
 [FFmpeg--功能命令汇总](文章/FFmpeg功能命令汇总.markdown)
 
-[FFmpeg--缩放、裁剪、剪辑视频](文章/ffmpeg 缩放、裁剪、剪辑视频.markdown)
+[FFmpeg--缩放、裁剪、剪辑视频](文章/ffmpeg缩放、裁剪、剪辑视频.markdown)
 
 [FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
 
