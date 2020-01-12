@@ -14,8 +14,6 @@
 
 [FFmpeg--使用说明](文章/FFmpeg使用说明.markdown)
 
-[FFmpeg--的使用](文章/FFmpeg的使用.markdown)
-
 [FFmpeg--参数命令](文章/FFmpeg参数命令.markdown)
 
 [FFmpeg--功能命令汇总](文章/FFmpeg功能命令汇总.markdown)
@@ -25,9 +23,26 @@
 [FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
 
 
-
-
 ## 工作笔记
+```bash
+root-of-repo
+├── docs-examples-from-docusaurus
+│   └── [2020010501](文章/2020010501.markdown)
+│   └── [2020010502](文章/2020010502.markdown)
+│   └── [2020010701](文章/20200107.markdown)
+│   └── [FFmpeg的使用](文章/FFmpeg的使用.markdown)
+└── website
+│   └── blog-examples-from-docusaurus
+│       └── 2016-03-11-blog-post.md
+│       └── 2017-04-10-blog-post-two.md
+│   └── core
+│       └── Footer.js
+│   └── node_modules
+│   └── package.json
+│   └── pages
+│   └── sidebars.json
+│   └── siteConfig.js
+│   └── static
 
 [2020010501](文章/2020010501.markdown)
 -- [2020010502](文章/2020010502.markdown)
