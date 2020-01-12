@@ -1,12 +1,5 @@
 # You-Get
 
-[![PyPI version](https://img.shields.io/pypi/v/you-get.svg)](https://pypi.python.org/pypi/you-get/)
-[![Build Status](https://travis-ci.org/soimort/you-get.svg)](https://travis-ci.org/soimort/you-get)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/soimort/you-get?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**NOTICE: Read [this](https://github.com/soimort/you-get/blob/develop/CONTRIBUTING.md) if you are looking for the conventional "Issues" tab.**
-
----
 如果没有其他便捷的方法，[You-Get](https://you-get.org/) 是一个微型命令行实用程序，可从Web下载媒体内容（视频，音频，图像）。
 
 这是 `you-get` 从 [YouTube](https://www.youtube.com/watch?v=jNQXAC9IVRw)下载视频:
@@ -46,7 +39,6 @@ Saving Me at the zoo.en.srt ... Done.
 
 您是Python程序员吗？然后检查源并进行分叉！
 
-![](https://i.imgur.com/GfthFAz.png)
 
 ## 安装
 
@@ -334,37 +326,37 @@ $ you-get -x 127.0.0.1:8087 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 
 ### 观看影片
 
-Use the `--player`/`-p` option to feed the video into your media player of choice, e.g. `mpv` or `vlc`, instead of downloading it:
-
+使用 `--player`/`-p` 选项将视频输入到您选择的媒体播放器中，例如 `mpv` 或 `vlc`，而不是下载它：
 ```
 $ you-get -p vlc 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 ```
 
-Or, if you prefer to watch the video in a browser, just without ads or comment section:
+或者，如果您希望在浏览器中观看视频，而没有广告或评论部分：
 
 ```
 $ you-get -p chromium 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 ```
 
-**Tips:**
+**提示：**
 
-* It is possible to use the `-p` option to start another download manager, e.g., `you-get -p uget-gtk 'https://www.youtube.com/watch?v=jNQXAC9IVRw'`, though they may not play together very well.
+* 可以使用该 `-p` 选项启动另一个下载管理器，例如 `you-get -p uget-gtk 'https://www.youtube.com/watch?v=jNQXAC9IVRw'`，尽管它们可能不能很好地配合使用。
+
 
 ### 加载cookie
+并非所有人都能公开获得所有视频。如果您需要登录帐户才能访问某些内容（例如私人视频），则不可避免地需要 `you-get` 通过`--cookies`/`-c` 选项将浏览器Cookie馈入。
 
-Not all videos are publicly available to anyone. If you need to log in your account to access something (e.g., a private video), it would be unavoidable to feed the browser cookies to `you-get` via the `--cookies`/`-c` option.
 
-**Note:**
-
-* As of now, we are supporting two formats of browser cookies: Mozilla `cookies.sqlite` and Netscape `cookies.txt`.
+**提示：**
+* 到目前为止，我们支持两种浏览器cookie格式：Mozilla  `cookies.sqlite` 和Netscape  `cookies.txt`。
 
 ### 重用提取的数据
 
-Use `--url`/`-u` to get a list of downloadable resource URLs extracted from the page. Use `--json` to get an abstract of extracted data in the JSON format.
+使用`--url`/`-u` 获取从页面提取的可下载资源URL的列表。使用 `--json` 得到一个抽象提取数据的JSON格式。
 
-**Warning:**
 
-* For the time being, this feature has **NOT** been stabilized and the JSON schema may have breaking changes in the future.
+**警告：**
+
+* 暂且，这个功能已经 **不** 被稳定和JSON模式可能在未来的重大更改。
 
 ## 支持的网站
 
@@ -458,38 +450,19 @@ Use `--url`/`-u` to get a list of downloadable resource URLs extracted from the 
 
 ### 已知错误
 
-If something is broken and `you-get` can't get you things you want, don't panic. (Yes, this happens all the time!)
+如果某件东西坏了，`you-get`不能让您得到想要的东西，请不要惊慌。（是的，这种情况一直发生！）
 
-Check if it's already a known problem on <https://github.com/soimort/you-get/wiki/Known-Bugs>. If not, follow the guidelines on [how to report an issue](https://github.com/soimort/you-get/blob/develop/CONTRIBUTING.md).
+在<https://github.com/soimort/you-get/wiki/Known-Bugs>上检查是否已经是已知问题。如果不是，请遵循有关[如何报告问题](https://github.com/soimort/you-get/blob/develop/CONTRIBUTING.md)的准则。
+
+
 
 ## 参与进来
 
-You can reach us on the Gitter channel [#soimort/you-get](https://gitter.im/soimort/you-get) (here's how you [set up your IRC client](http://irc.gitter.im) for Gitter). If you have a quick question regarding `you-get`, ask it there.
+您可以在Gitter频道 [#soimort/you-get](https://gitter.im/soimort/you-get) 上与我们联系（这是为Gitter [设置IRC客户端](http://irc.gitter.im)的方式）。如果您有关于的快速问题`you-get`，请在那里提问。
 
-If you are seeking to report an issue or contribute, please make sure to read [the guidelines](https://github.com/soimort/you-get/blob/develop/CONTRIBUTING.md) first.
+如果您要报告问题或做出贡献，请确保首先阅读 [准则](https://github.com/soimort/you-get/blob/develop/CONTRIBUTING.md)。
 
-## 法律问题
 
-This software is distributed under the [MIT license](https://raw.github.com/soimort/you-get/master/LICENSE.txt).
 
-In particular, please be aware that
 
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Translated to human words:
-
-*In case your use of the software forms the basis of copyright infringement, or you use the software for any other illegal purposes, the authors cannot take any responsibility for you.*
-
-We only ship the code here, and how you are going to use it is left to your own discretion.
-
-## Authors
-
-Made by [@soimort](https://github.com/soimort), who is in turn powered by :coffee:, :beer: and :ramen:.
-
-You can find the [list of all contributors](https://github.com/soimort/you-get/graphs/contributors) here.
+[原文地址：](https://github.com/soimort/you-get)
