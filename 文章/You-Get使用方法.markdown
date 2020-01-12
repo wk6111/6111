@@ -1,4 +1,4 @@
-# You-Get
+# You-Get安装与使用方法
 
 如果没有其他便捷的方法，[You-Get](https://you-get.org/) 是一个微型命令行实用程序，可从Web下载媒体内容（视频，音频，图像）。
 
