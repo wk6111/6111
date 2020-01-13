@@ -24,6 +24,13 @@
 
 [FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
 
+## H5ai
+
+> H5ai是一款功能强大 php 文件目录列表程序，由德国开发者 Lars Jung 主导开发，它提供多种文件目录列表呈现方式，支持多种主流 Web 服务器，例如 Nginx、Apache、Cherokee、Lighttpd 等，支持多国语言，可以使用本程序在线预览文本、图片、音频、视频等。
+
+[H5ai--使用方法](文章/H5ai.markdown)
+
+[H5ai_DPlayer版--使用方法](文章/开源H5ai_DPlayer版，支持切片视频播放.markdown)
 
 ## 工作笔记
 
