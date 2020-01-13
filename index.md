@@ -37,7 +37,7 @@
 
 ### 展示
 
-[瀑布流展示](瀑布流.md)|[三维-10p](文章/平衡车-动动三维.markdown)|[海报-11p](文章/产品海报[11p].markdown)|[logo-20P](文章/金融logo[20P].markdown)|[画册-24P](文章/植保无人机画册[24P].markdown)|[UI-12p](文章/UI.markdown)|[**3D**图册-测试](文章/3D旋转.markdown)
+[瀑布流](瀑布流.md)|[三维](文章/平衡车-动动三维.markdown)|[海报](文章/产品海报[11p].markdown)|[logo](文章/金融logo[20P].markdown)|[画册](文章/植保无人机画册[24P].markdown)|[UI](文章/UI.markdown)|[**3D**图册](文章/3D旋转.markdown)
 
 
 ------
