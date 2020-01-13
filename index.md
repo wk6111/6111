@@ -27,14 +27,14 @@
 
 [H5ai_DPlayer版--使用方法](文章/h5ai-DPlayer版.markdown)
 
-### 工作笔记
+### 笔记
 
 [2020010501](文章/2020010501.markdown)
 -- [2020010502](文章/2020010502.markdown)
 -- [2020010701](文章/20200107.markdown)
 -- [FFmpeg的使用](文章/FFmpeg的使用.markdown)
 
-### 案例展示
+### 展示
 
 [瀑布流展示](瀑布流.md)|[三维-10p](文章/平衡车-动动三维.markdown)|[海报-11p](文章/产品海报[11p].markdown)|[logo-20P](文章/金融logo[20P].markdown)|[画册-24P](文章/植保无人机画册[24P].markdown)|[UI-12p](文章/UI.markdown)|[**3D**图册-测试](文章/3D旋转.markdown)
 
