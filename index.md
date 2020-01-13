@@ -1,6 +1,6 @@
 
-- [FFMPEG 使用](## FFmpeg的使用)
-- [H5ai 使用](## H5ai)
+- [FFMPEG 使用](#FFmpeg的使用)
+- [H5ai 使用](# H5ai)
 
 ## 案例展示
 
@@ -33,7 +33,7 @@
 
 [H5ai--使用方法](文章/H5ai.markdown)
 
-[H5ai_DPlayer版--使用方法](文章/开源H5ai_DPlayer版，支持切片视频播放.markdown)
+[H5ai_DPlayer版--使用方法](文章/开源H5ai(DPlayer版).markdown)
 
 ## 工作笔记
 
