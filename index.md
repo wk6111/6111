@@ -1,6 +1,6 @@
 
-- [FFMPEG 使用](https://wk6111.github.io/6111/#ffmpeg的使用)
-- [H5ai 使用](https://wk6111.github.io/6111/#h5ai)
+- [FFMPEG 使用](#ffmpeg的使用)
+- [H5ai 使用](#h5ai)
 
 ## 案例展示
 
