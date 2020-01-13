@@ -7,17 +7,19 @@
 
 > 如此强大的FFmpeg，能够实现视频采集、视频格式转化、视频截图、视频添加水印、视频切片、视频录制、视频推流、更改音视频参数功能等。通过终端命令如何实现这些功能，在此本文做一记录，以备之后查阅。
 
-[You-Get--使用方法](文章/You-Get使用方法.markdown)
+- [You-Get--使用方法](文章/You-Get使用方法.markdown)
 
-[FFmpeg--使用说明](文章/FFmpeg使用说明.markdown)
+- [FFmpeg--使用说明](文章/FFmpeg使用说明.markdown)
 
-[FFmpeg--参数命令](文章/FFmpeg参数命令.markdown)
+- [FFmpeg--参数命令](文章/FFmpeg参数命令.markdown)
 
-[FFmpeg--功能命令汇总](文章/FFmpeg功能命令汇总.markdown)
+- [FFmpeg--功能命令汇总](文章/FFmpeg功能命令汇总.markdown)
 
-[FFmpeg--缩放、裁剪、剪辑视频](文章/ffmpeg缩放、裁剪、剪辑视频.markdown)
+- [FFmpeg--缩放、裁剪、剪辑视频](文章/ffmpeg缩放、裁剪、剪辑视频.markdown)
 
-[FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
+- [FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
+
+- [FFmpeg的使用](文章/FFmpeg的使用.markdown)
 
 ### H5ai
 
@@ -29,10 +31,9 @@
 
 ### 笔记
 
-[2020010501](文章/2020010501.markdown)
--- [2020010502](文章/2020010502.markdown)
--- [2020010701](文章/20200107.markdown)
--- [FFmpeg的使用](文章/FFmpeg的使用.markdown)
+- [2020010501](文章/2020010501.markdown)
+- [2020010502](文章/2020010502.markdown)
+- [2020010701](文章/20200107.markdown)
 
 ### 展示
 
