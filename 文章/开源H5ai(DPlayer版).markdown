@@ -34,10 +34,6 @@ old:
 
 **文件**
 
-[**h5ai_dplayer_hls_20190610.zip**](https://github.com/Pearlulu/h5ai_dplayer_hls/releases/download/0610/h5ai_dplayer_hls_20190610.zip)
-
-
-
 
 ![](https://www.locmjj.com/wp-content/uploads/image/20190612/1560338041849554.png)
 
