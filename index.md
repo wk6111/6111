@@ -6,6 +6,8 @@
 - ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - [**展示**](#展示)
 
 
+- ![](vertical-align: inherit)
+
 ## FFmpeg
 
   - 如此强大的FFmpeg，能够实现视频采集、视频格式转化、视频截图、视频添加水印、视频切片、视频录制、视频推流、更改音视频参数功能等。通过终端命令如何实现这些功能，在此本文做一记录，以备之后查阅。
