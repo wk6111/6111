@@ -31,8 +31,18 @@
 
 ### h5动画
 
-- [时间轴](文章/代码/时间轴.html)
-- [魔方](文章/代码/魔方.html)
+>转载
+
+- [时间轴](https://www.html5tricks.com/demo/jquery-event-timeline/index.html)
+- [魔方](https://www.html5tricks.com/demo/html5-css3-3d-rubik-cube/index.html)
+
+### h5背景
+
+>转载
+
+- [star](文章/代码/star.htm)
+- [starts](文章/代码/starts.html)
+
 
 
 ### 笔记
