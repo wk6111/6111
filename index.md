@@ -1,11 +1,11 @@
-![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - - [**FFmpeg** 使用](#ffmpeg)  
-![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - - [**H5ai** 使用](#h5ai)  
-![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - - [**H5** 使用](#h5)  
-![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - - [**笔记**](#笔记)  
-![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - - [**展示**](#展示)  
+![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - [**FFmpeg** 使用](#ffmpeg)  
+![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - [**H5ai** 使用](#h5ai)  
+![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - [**H5** 使用](#h5)  
+![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - [**笔记**](#笔记)  
+![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) - [**展示**](#展示)  
 
 
-## FFmpeg
+## ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) FFmpeg
 
   - 如此强大的FFmpeg，能够实现视频采集、视频格式转化、视频截图、视频添加水印、视频切片、视频录制、视频推流、更改音视频参数功能等。通过终端命令如何实现这些功能，在此本文做一记录，以备之后查阅。
 
@@ -24,7 +24,7 @@
     - [FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
     - [FFmpeg--的使用](文章/FFmpeg的使用.markdown)
 
-## H5ai
+## ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) H5ai
 
   - H5ai是一款功能强大 php 文件目录列表程序，由德国开发者 Lars Jung 主导开发，它提供多种文件目录列表呈现方式，支持多种主流 Web 服务器，例如 Nginx、Apache、Cherokee、Lighttpd 等，支持多国语言，可以使用本程序在线预览文本、图片、音频、视频等。
 
@@ -34,7 +34,7 @@
 
 
 
-## H5
+## ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) H5
 
  - **H5 背景**
 
@@ -47,7 +47,7 @@
     - [魔方](https://www.html5tricks.com/demo/html5-css3-3d-rubik-cube/index.html)
 
 
-## 笔记
+## ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) 笔记
 
  - **一月**
 
@@ -55,7 +55,7 @@
     - [2020010502](文章/2020010502.markdown)
     - [2020010701](文章/20200107.markdown)
 
-## 展示
+##  ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png)展示
 
 [瀑布流](瀑布流.md)|[三维](文章/平衡车-动动三维.markdown)|[海报](文章/产品海报[11p].markdown)|[logo](文章/金融logo[20P].markdown)|[画册](文章/植保无人机画册[24P].markdown)|[UI](文章/UI.markdown)|[**3D**图册](文章/3D旋转.markdown)
 
