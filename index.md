@@ -64,6 +64,4 @@
 
 
 ------
-[**首页**](https://wk6111.github.io/6111/)  |  [github](https://github.com/wk6111)  |  [开发文档](https://guides.github.com/features/mastering-markdown/)  |  [笔记目录](笔记目录.markdown)  |  [瀑布流展示](瀑布流.md)  |  [邮箱：wk6111@163.com](mailto:wk6111@163.com)
-
-<a href="mailto:wk6111@163.com">wk6111@163.com</a>
+[**首页**](https://wk6111.github.io/6111/)  |  [github](https://github.com/wk6111)  |  [开发文档](https://guides.github.com/features/mastering-markdown/)  |  [笔记目录](笔记目录.markdown)  |  [瀑布流展示](瀑布流.md)  |  [联系](mailto:wk6111@163.com)
