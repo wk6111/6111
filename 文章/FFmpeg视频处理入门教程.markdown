@@ -11,6 +11,7 @@
 
 - [**三、常用命令行参数**](#三常用命令行参数)
 
+
 - [**四、常见用法**](#四常见用法)
   - [4.1 查看文件信息](#41-查看文件信息)
   - [4.2 转换编码格式](#42-转换编码格式)
@@ -22,6 +23,9 @@
   - [4.8 截图](#48-截图)
   - [4.9 裁剪](#49-裁剪)
   - [4.10 为音频添加封面](#410-为音频添加封面)
+
+
+- [**五、参考链接**](#五参考链接)
 
 
 - FFmpeg是视频处理最常用的开源软件。
@@ -292,3 +296,12 @@ output.mp4
 ```
 
 上面命令中，有两个输入文件，一个是封面图片cover.jpg，另一个是音频文件input.mp3。-loop 1参数表示图片无限循环，-shortest参数表示音频文件结束，输出视频就结束。
+
+### 五、参考链接
+<ul>
+<li><a href="https://github.com/leandromoreira/ffmpeg-libav-tutorial#chapter-3---transcoding" target="_blank">FFmpeg libav tutorial</a></li>
+<li><a href="https://github.com/leandromoreira/digital_video_introduction/blob/master/encoding_pratical_examples.md#split-and-merge-smoothly" target="_blank">Digital video introduction</a></li>
+<li><a href="http://slhck.info/ffmpeg-encoding-course/" target="_blank">FFmpeg encoding and editing course</a></li>
+<li><a href="http://dragonquest64.blogspot.com/2019/10/making-slideshows-wffmpeg.html" target="_blank">Making Slideshows w/FFMpeg</a></li>
+<li><a href="https://itsfoss.com/ffmpeg/" target="_blank">The Complete Guide for Using ffmpeg in Linux</a></li>
+</ul>
