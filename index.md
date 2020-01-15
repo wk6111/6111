@@ -22,6 +22,7 @@
     - [FFmpeg--缩放、裁剪、剪辑视频](文章/ffmpeg缩放、裁剪、剪辑视频.markdown)
     - [FFmpeg--使用H264编码转换视](文章/FFmpeg使用H264编码转换视.markdown)
     - [FFmpeg--的使用](文章/FFmpeg的使用.markdown)
+    - [FFmpeg--视频处理入门教程](文章/FFmpeg视频处理入门教程.markdown)
 
 ## ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) H5ai
 
