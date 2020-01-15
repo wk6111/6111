@@ -39,6 +39,8 @@
   - [添加字幕](#%e6%b7%bb%e5%8a%a0%e5%ad%97%e5%b9%95)
   - [嵌入字幕](#%e5%b5%8c%e5%85%a5%e5%ad%97%e5%b9%95)
 
+![](https://linux265.com/static/images/upload/how-to-install-ffmpeg-on-centos-7-featured.jpg)
+
 ## 截图命令
 
 ### 截取一张352x240尺寸大小，格式为jpg的图片
