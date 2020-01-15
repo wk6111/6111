@@ -48,7 +48,7 @@
 
     - [时间轴](https://www.html5tricks.com/demo/jquery-event-timeline/index.html)
     - [魔方](https://www.html5tricks.com/demo/html5-css3-3d-rubik-cube/index.html)
-
+    - [**3D**图册](文章/3D旋转.markdown)
 
 ## ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) 笔记
 
@@ -60,8 +60,8 @@
 
 ##  ![](https://pub.idqqimg.com/pc/misc/files/20190523/789deec63b527ba439bc5e627de26e11.png) 展示
 
-[瀑布流](瀑布流.md)|[三维](文章/平衡车-动动三维.markdown)|[海报](文章/产品海报[11p].markdown)|[logo](文章/金融logo[20P].markdown)|[画册](文章/植保无人机画册[24P].markdown)|[UI](文章/UI.markdown)|[**3D**图册](文章/3D旋转.markdown)
+[瀑布流](瀑布流.md)|[三维](文章/平衡车-动动三维.markdown)|[海报](文章/产品海报[11p].markdown)|[logo](文章/金融logo[20P].markdown)|[画册](文章/植保无人机画册[24P].markdown)|[UI](文章/UI.markdown)
 
 
 ------
-[**首页**](https://wk6111.github.io/6111/)  |  [github](https://github.com/wk6111)  |  [开发文档](https://guides.github.com/features/mastering-markdown/)  |  [笔记目录](笔记目录.markdown)  |  [瀑布流展示](瀑布流.md)
+[**首页**](https://wk6111.github.io/6111/)  |  [github](https://github.com/wk6111)  |  [开发文档](https://guides.github.com/features/mastering-markdown/)  |  [笔记目录](笔记目录.markdown)  |  [瀑布流展示](瀑布流.md)  |  邮箱：wk6111@163.com
