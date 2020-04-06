@@ -1,6 +1,6 @@
 <div class="artical-Left-blog">
     <div class="status">
-        <a class="tab_name original">原创</a>
+        <a class="tab_name original"></a>
     </div>
     <h1 class="artical-title">IPv6系列-初学者的10个常见困扰</h1>
     <h1>目录</h1>
