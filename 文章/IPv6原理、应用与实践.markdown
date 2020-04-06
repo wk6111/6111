@@ -2,9 +2,9 @@
     <header class="Post-Header">
         <h1 class="Post-Title">IPv6原理、应用与实践</h1>
         <div class="Post-Author">
-            <div>
-                </span>
-            </p>
+            <
+            <
+            <
             </blockquote>
             <p>2017年11月26日，中共中央办公厅和国务院办公厅印发了《<a href="https://link.zhihu.com/?target=http%3A//www.xinhuanet.com/politics/2017-11/26/c_1122012631.htm" class=" wrap external" target="_blank" rel="nofollow noreferrer" data-za-detail-view-id="1043">推荐互联网协议第六版（IPv6）规模部署行动计划</a>》，并发出通知，要求各地区各部门结合实际认真贯彻落实。这条新闻传达了一个很重要的信息：这个是推进中国IPv6发展的战略总动员令。</p>
             <p><b>本文将会从以下几个方面进一步介绍IPv6，包括有：</b>
