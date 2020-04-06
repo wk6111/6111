@@ -1,0 +1,212 @@
+<div class="artical-Left-blog">
+    <div class="status">
+        <a class="tab_name original">原创</a>
+    </div>
+    <h1 class="artical-title">IPv6系列-初学者的10个常见困扰</h1>
+    <h1>目录</h1>
+    <p>▪ 本文缘由
+        <br>▪ 困扰1. IPv4和IPv6只有地址格式不同吗
+        <br>▪ 困扰2. IPv4到IPv6对应用程序是透明无感知的吗
+        <br>▪ 困扰3. 提供WEB服务，需要每台服务器都配置IPv6地址吗
+        <br>▪ 困扰4. IPv4和IPv6要配在同一张网卡上吗
+        <br>▪ 困扰5. 我的网卡有fe80开头的地址，可以用来上公网吗
+        <br>▪ 困扰6. IPv6地址如何配置
+        <br>▪ 困扰7. 没有了ARP，如何解析MAC地址
+        <br>▪ 困扰8. IPv6使用多播替代广播，需要做哪些改造
+        <br>▪ 困扰9. IPv6真的安全吗
+        <br>▪ 困扰10. 如何学习IPv6
+        <br>▪ 后续说明
+    </p>
+    <hr>
+    <h1>本文缘由</h1>
+    <p>在笔者的上一篇文章《IPv6系列-入门指南》里，简要阐述了以下内容：</p>
+    <p>▷ 掌握IPv6的必要性
+        <br>▷ IPv6的3个常见顾虑
+        <br>▷ IPv6基础知识
+        <br>▷ 常用测试方法
+    </p>
+    <p>
+        <strong>而在进一步的实践学习中，会遇到很多的困扰</strong>。笔者结合自己以及身边的同行兄弟们遇到的困扰，精心挑选出
+        <strong>10个困扰</strong>在本文中进行解答。
+    </p>
+    <p>
+        <strong>如果没有阅读过《IPv6系列-入门指南》，敬请劳神垂阅，以便知识的连贯。</strong>
+    </p>
+    <hr>
+    <h1>困扰1. IPv4和IPv6只有地址格式不同吗</h1>
+    <p>除了地址格式不同，IPv4与IPv6协议栈也不同，他们在逻辑上是
+        <strong>完全不同的2个世界</strong>
+    </p>
+    <p>以下实践中经常会遇到的4个不同之处：</p>
+    <p>▷
+        <strong>基本通讯过程</strong>：ND替代ARP、多播替代广播、fe80地址成为标配、ICMP成为通讯核心
+        <br>▷
+        <strong>IP配置方式</strong>：客户端以无状态自动配置IP成为主流，弱化DHCP
+        <br>▷
+        <strong>DNS域名解析</strong>：AAAA记录替代IPv4的A记录、对应用存在优先级问题（优先解析AAAA还是A）
+        <br>▷
+        <strong>应用层适应性</strong>：socket编程中AF_INET仅支持IPv4，AF_INET6仅支持IPv6
+    </p>
+    <hr>
+    <h1>困扰2. IPv4到IPv6对应用程序是透明无感知的吗</h1>
+    <p>
+        <strong>错，是有感知的</strong>，上层应用程序需要进行改造。
+    </p>
+    <p>举个例子，当访问fzxiaomange.com时候，是要优先解析IPv6地址（AAAA）还是IPv4地址（A），因为总得选一条线路来发送请求。现在许多框架会优先选择IPv6。</p>
+    <p>注意：如果解析出AAAA记录，即使本机没有可路由IPv6地址，也有可能
+        <strong>依然尝试通过IPv6进行请求，导致请求失败</strong>。
+    </p>
+    <p>还有一个典型的例子，是程序会在
+        <strong>应用层里交互底层IP地址</strong>，比如FTP主动模式会在应用层里交互IPv4地址，而如果实际可用的是IPv6地址，就可能导致后续连接的异常。
+    </p>
+    <p>
+        <strong>无法做到透明无感知，是导致产生IPv4到IPv6的部分过渡方案的原因之一。</strong>
+    </p>
+    <hr>
+    <h1>困扰3. 提供WEB服务，需要每台服务器都配置IPv6地址吗</h1>
+    <p>现在有一种言论，说“IPv6地址无限多，每台服务器都可以配一个IP地址，不用做NAT”。</p>
+    <p>
+        <strong>这很容易误导人，具体如何使用IPv6，还得根据场景而定</strong>。比如笔者的个人博客fzxiaomange.com，由nginx-&gt;php-&gt;mysql组成，分别位于3台服务器上，那只需要在nginx上配置IPv6地址，并在DNS上添加一条AAAA记录指向L7的IPv6地址即可。完全没必要在php、mysql服务器上配置IPv6地址，而且一旦配置了，就直接暴露内网了。
+    </p>
+    <p>每个设备都配置IPv6，主要适用于
+        <strong>偏客户端以及地址需求量大的场景</strong>，诸如物联网设备、手机4G、家庭宽带等。
+    </p>
+    <p>另外，
+        <strong>IPv6有NAT</strong>，适用于办公PC、机房服务器等需要访问IPv6网络，而不想被别人主动访问的场景。
+    </p>
+    <hr>
+    <h1>困扰4. IPv4和IPv6要配在同一张网卡上吗</h1>
+    <p>都可以，首先需要先了解2个词
+        <strong>“单栈”</strong>和
+        <strong>“双栈”</strong>：
+    </p>
+    <p>
+        <strong>以节点为角度</strong>（通用的解释）：
+    </p>
+    <p>▷ 单栈：表示一个IPv6节点，也就是一台服务器，或一部手机，仅有IPv6地址，或仅有IPv4地址，前者叫做
+        <strong>“IPv6单栈”</strong>或
+        <strong>“IPv6-Only”</strong>，后者叫
+        <strong>“IPv4单栈”</strong>或
+        <strong>“IPv4-Only”</strong>。
+        <br>▷ 双栈：表示一个IPv6节点，同时拥有IPv6地址和IPv4地址
+    </p>
+    <p>
+        <strong>以网卡为角度</strong>：
+    </p>
+    <p>▷ 单栈：表示一张网卡仅有IPv6地址，或仅有IPv4地址，示意图如下</p>
+    <p>
+        <img src="https://fzxiaomange.com/img/ipv6/ipsinglestack.png" alt="singlestack" style="cursor: pointer;">
+    </p>
+    <p>▷ 双栈：表示一张网卡同时拥有IPv6地址和IPv4地址</p>
+    <p>
+        <img src="https://fzxiaomange.com/img/ipv6/ipdualstack.png" alt="dualstack" style="cursor: pointer;">
+    </p>
+    <p>IPv4和IPv6在逻辑上是两个完全不相交的世界。如果终端处位于同一个物理层，比如同一个VLAN，那么网卡就只能同时配置IPv6地址和IPv4地址；反之，就必须一张网卡配置IPv6，另一张网卡配置IPv4。所以，
+        <strong>关键看网络架构是如何设计，各有利弊</strong>。比如放同一张网卡上，就可以做到带宽共享，而放不同网卡，可以做到带宽分别限制与计费。
+    </p>
+    <hr>
+    <h1>困扰5. 我的网卡有fe80开头的地址，可以用来上公网吗</h1>
+    <p>
+        <img src="https://fzxiaomange.com/img/ipv6/ipaddr-win.png" alt="win10" style="cursor: pointer;">
+    </p>
+    <p>
+        <img src="https://fzxiaomange.com/img/ipv6/ipaddr.png" alt="centos7" style="cursor: pointer;">
+    </p>
+    <p>当网卡启动的时候，会自动生成
+        <strong>“链路本地地址”（Link-Local Address）</strong>，这是一个
+        <strong>fe80::/10</strong>的单播地址。“链路本地地址”用于
+        <strong>IP自动配置</strong>、
+        <strong>邻居发现</strong>等。
+    </p>
+    <p>
+        <strong>注意事项</strong>：
+    </p>
+    <p>▷ 核心：每张网卡都会存在“链路本地地址”，这是IPv6协议通讯的核心，不应当删掉
+        <br>▷ 范围：仅在同一个二层范围内进行传播，不会被路由器做转发
+        <br>▷ 地址：“链路本地地址”的算法不统一，有的操作系统会根据mac地址计算而来（EUI-64），而有的则是随机或其他某种算法计算而来
+        <br>▷ 服务：“链路本地地址”虽然可以在二层内互通，但主要用于核心通讯以及某些网络高级协议。不适用于上层应用业务之间的通讯。因此不能用来上公网，也不能用于对外提供服务
+    </p>
+    <hr>
+    <h1>困扰6. IPv6地址如何配置</h1>
+    <p>
+        <strong>公网地址和私网地址</strong>
+    </p>
+    <p>▷ 公网地址：“全球单播地址”（Global Unicast Address，2000::/3）
+        <br>▷ 私网地址：“唯一本地地址”（Unique-Local Address，fc00::/7）
+    </p>
+    <p>细心的人可能会发现，为什么这里叫做“全球单播地址”，而“唯一本地地址”却不叫做“唯一本地单播地址”，好吧，其实都是简称，在RFC里是这么定义的：“Global Unicast Addresses”、“Link-Local IPv6 Unicast Addresses”。其实“全球单播地址”是可以叫做“全球地址”的，只是这样显得有点别扭。</p>
+    <p>
+        <strong>自动生成还是固定IP</strong>
+    </p>
+    <p>在IPv6里，任何单播地址都可以自动生成，也可以手工配置固定IP，具体看应用场景：</p>
+    <p>▷ 客户端：如果我想访问ipv6互联网，而不对外提供服务，那么使用自动生成即可，无需使用固定的ip地址
+        <br>▷ 服务端：如果需要对外提供服务，那么ip地址就需要固定了，不能使用自动生成
+    </p>
+    <p>
+        <strong>自动配置IP</strong>
+    </p>
+    <p>在ipv6里还分为2种方法：“有状态”与“无状态”</p>
+    <p>▷ 有状态（Stateful）：地址由DHCPv6 Server统一管理，DHCPv6 Client从中获得一个可用的IP地址
+        <br>▷ 无状态（Stateless，简称
+        <strong>SLAAC</strong>）：路由器发出
+        <strong>“路由通告”报文（Router Advertisement，简称RA）</strong>，报文内包含了IPv6地址的前缀信息。当收到RA包后，就会根据其中前缀信息，自动生成一个或多个IP地址
+    </p>
+    <hr>
+    <h1>困扰7. 没有了ARP，如何解析MAC地址</h1>
+    <p>ARP协议是IPv4用于解析目标MAC地址的协议，而在IPv6里，解析地址采用的是
+        <strong>邻居发现（Neighbor Discovery Protocol，简称NDP或ND）</strong>
+    </p>
+    <p>ND不是一个具体协议，而是用来描述多个相关功能的协议的
+        <strong>抽象集合</strong>，所涵盖的所有协议均是基于ICMPv6。其中有2种报文与解析MAC地址有关：
+    </p>
+    <p>▷
+        <strong>邻居请求报文NS（Neighbor Solicitation）</strong>：请求解析
+        <br>▷
+        <strong>邻居通告报文NA（Neighbor Advertisement）</strong>：响应解析
+    </p>
+    <p>这与ping是非常类似的：</p>
+    <p>▷ ping：发送icmp的echo request报文，对端响应icmp的echo reply报文
+        <br>▷ 地址解析：发送icmp的ns报文，对端响应icmp的na报文
+    </p>
+    <hr>
+    <h1>困扰8. IPv6使用多播替代广播，需要做哪些改造</h1>
+    <p>IPv6使用多播替代了广播，多播的特点是不会像广播那样完全泛洪，而是数据包只发送给加入了多播组的机器。</p>
+    <p>但是，这有个前提，就是
+        <strong>交换机要能识别并维护多播组的信息</strong>，主流交换机都具备此功能，然而并不都是默认开启的。对于二层交换机来说，需要开启
+        <strong>MLDv2 Snooping</strong>。
+    </p>
+    <p>顾名思义，就是交换机会识别
+        <strong>“MLDv2成员报告”</strong>报文从哪个端口发来的，并记录下来，之后当交换机收到多播包后，会先查找其多播地址是否能在缓存里匹配上
+    </p>
+    <p>▷ 匹配成功：仅会将数据包从相应的端口发出
+        <br>▷ 匹配失败：就会泛洪，此时和广播毫无差异
+    </p>
+    <hr>
+    <h1>困扰9. IPv6真的安全吗</h1>
+    <p>
+        <strong>理想很美好</strong>，IPv6从设计之初，就进行了大量的安全方面的设计，“完整的”IPv6在安全方面有至少以下3个优势：
+    </p>
+    <p>▷ 原生支持的端到端加密
+        <br>▷ 安全的邻居发现（
+        <strong>Secure Neighbor Discovery，简称SEND</strong>）
+        <br>▷ 更大的地址空间
+    </p>
+    <p>
+        <strong>现实很残酷</strong>，只有第3点发挥了作用，更大的地址空间，减少了被非法扫描到的概率。而第1、2点并没真正普及起来，因为
+        <strong>协议本身就很复杂、学习难度很大、实现起来也很不容易</strong>。因此IETF为了加速IPv6的普及，
+        <strong>对安全性不再强制要求</strong>。这也导致了IPv6实际上并没有预期中的那么安全，在IPv4里存在的地址欺骗、虚假网关等情况，在IPv6里依然存在。
+    </p>
+    <hr>
+    <h1>困扰10. 如何学习IPv6</h1>
+    <p>网上能找到非常多的IPv6教程，其中有很多教程都是通篇讲IPv6地址、IP包格式、ICMP包格式，这很容易让初学者打退堂鼓。笔者虽然不是专业的网工，但愿能抛砖引玉，推荐的学习步骤如下：</p>
+    <p>1️⃣ IPv6的历史、设计理念
+        <br>2️⃣ IPv6的地址格式、分类、前缀计算，以及与IPv4的对比
+        <br>3️⃣ IP地址、网关路由的配置与查看
+        <br>4️⃣ 服务端实践，尝试给自己的网站增加IPv6
+        <br>5️⃣ 客户端实践，让自己的PC访问IPv6互联网
+        <br>6️⃣ 应用层实践，自己写一对C/S程序，能同时支持IPv4与IPv6
+        <br>7️⃣ IPv6通讯原理，抓包分析每个包，熟悉ND、DHCPv6等
+        <br>8️⃣ IPv4与IPv6的互访、过渡
+        <br>9️⃣ IPv6安全
+    </p>
+</div>
