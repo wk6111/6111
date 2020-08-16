@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">　　<link rel="stylesheet" href="css/*.css" type="text/css">
+<title>主结构</title>
+</head>
+<body>
+    页面内容页面内容　　
+    <script type="text/javascript" src="js/*.js"></script>
+</body>
+</html>
+
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">　　<link rel="stylesheet" href="css/*.css" type="text/css">
+<title>主结构</title>
+</head>
+<body>
+    页面内容页面内容　　
+    <script type="text/javascript" src="js/*.js"></script>
+</body>
+</html>
+```
+
+https://www.cnblogs.com/xwwin/p/5769381.html
